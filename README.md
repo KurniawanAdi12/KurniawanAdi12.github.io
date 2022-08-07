@@ -1,1 +1,0 @@
-# KurniawanAdi12.github.io
