@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.content{
+    color: #3FA796 ;
+    font-family: lora;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content svg{
+    margin-bottom: -10px;
+    padding: 0;
+}
+/*
+        HEADER-JUMBOTRON
+*/
+
+.jumbotron{
+    background-color: #3FA796;
+    color: #E7F6F2;
+    text-align: center;
+    padding: 40px;
+    font-family: lora;
+}
+
+.jumbotron p{
+    font-size: 20px;
+}
+.jumbotron img{
+    width: 225px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.jumbotron hr{
+    width: 350px;
+    margin: 0 auto;
+    height: 7px;
+    background-color: #E7F6F2;
+}
+.jumbotron h1{
+    font-size: 50px;
+}
+
+/*
+        HEADER-JUMBOTRON        ( AKHIR )
+*/
+
+
+
+
+/*
+    CONTENT-ABOUTME
+*/
+.box-tentang-saya{
+    flex-basis: 50%;
+}
+
+article{
+    padding: 20px;
+}
+#aboutMe{
+    text-align: center;
+}
+
+#aboutMe h2{
+    font-size: 35px;
+
+}
+
+#aboutMe aside{
+    display: flex;
+}
+
+#aboutMe hr{
+    width: 250px;
+    background-color: #3FA796;
+    height: 4px;
+    margin: 0 auto;
+}
+
+
+/*
+    CONTENT-ABOUTME              ( AKHIR )
+*/
+
+
+
+/*
+CONTENT-MYSCILLS
+*/
+
+#myScills{
+    text-align: center;
+    color: #E7F6F2;
+    background-color: #3FA796;
+}
+
+#myScills hr{
+    width: 250px;
+    background-color: #E7F6F2;
+    height: 4px;
+    margin: 0 auto;
+}
+.myscills-img img{
+  width: 300px;
+}
+
+
+/*
+    CONTENT-MYSCILLS              ( AKHIR )
+*/
+
+
+/*
+        MEDIAQUERY
+*/
+
+@media (min-width: 320px) and (max-width: 767px){
+    .jumbotron img{
+        width: 150px;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+    }
+    .jumbotron p{
+        font-size: 15px;
+    }
+
+    .jumbotron hr{
+        width: 225px;
+    }
+
+    #aboutMe aside{
+        flex-direction: column;
+    }
+    #aboutMe h2{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+/*
+        MEDIAQUERY-AKHIR
+*/
